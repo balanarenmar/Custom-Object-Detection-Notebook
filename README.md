@@ -7,7 +7,7 @@ This jupyter notebook is meant to be run on Google Drive, and using Google Colab
 
 <br>
 
-## Before running the notebook, make sure to have the following directories in your  Drive. ##
+## Before running the notebook, make sure to have the following directories in your  G-Drive. ##
 
 1.  Create a folder named customTF2 in your google drive.
 
@@ -20,12 +20,12 @@ This jupyter notebook is meant to be run on Google Drive, and using Google Colab
 5. Create their zip files and upload them to the customTF2 folder in your drive.
 
 
-
-
+<br><br><br>
 
 ## Image annotation to get PASCAL_VOC XML file
 You can check out the [Github repo for LabelImg](https://github.com/heartexlabs/labelImg), or read more about image labeling [here](https://viso.ai/computer-vision/labelimg-for-image-annotation/).
 
 <br>
 After attaching your drive, your directory should look something like this: 
-<img src="assets/directory.png" class="center" alt="Astar_worst_mode" width="50%"> 
+<img src="assets/directory.png" alt="Colab directory after mounting drive" width="50%">
+
