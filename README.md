@@ -28,4 +28,4 @@ You can check out the [Github repo for LabelImg](https://github.com/heartexlabs/
 
 <br>
 After attaching your drive, your directory should look something like this: 
-<img src="assets/directory.png" alt="Astar_worst_mode" width="70%"> 
+<img src="assets/directory.png" class="center" alt="Astar_worst_mode" width="50%"> 
