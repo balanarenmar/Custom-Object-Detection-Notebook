@@ -23,9 +23,24 @@ This jupyter notebook is meant to be run on Google Drive, and using Google Colab
 <br><br><br>
 
 ## Image annotation to get PASCAL_VOC XML file
-You can check out the [Github repo for LabelImg](https://github.com/heartexlabs/labelImg), or read more about image labeling [here](https://viso.ai/computer-vision/labelimg-for-image-annotation/).
+ **Image annotation** is the process of labeling or classifying an image using text, annotation tools, or both, to show the data features you want your model to recognize on its own.
+ 
+ You can check out the [Github repo for LabelImg](https://github.com/heartexlabs/labelImg), or read more about image labeling [here](https://viso.ai/computer-vision/labelimg-for-image-annotation/).
 
 <br>
 After attaching your drive, your directory should look something like this: 
 <img src="assets/directory.png" alt="Colab directory after mounting drive" width="50%">
+
+
+
+## **ROADMAP TO CREATING AN OBJECT DETECTION TFLITE MODEL**
+* Collect the dataset of images and label them to get their xml files.
+
+* Install the TensorFlow Object Detection API.
+* Generate the TFRecord files required for training. (need generate_tfrecord.py script and csv files for this)
+* Edit the model pipeline config file and download the pre-trained model checkpoint.
+* Train and evaluate the model.
+* Export and convert the model into TFlite(TensorFlow Lite) format.
+* Deploy the TFlite model on Android / iOS / IoT devices.
+
 
