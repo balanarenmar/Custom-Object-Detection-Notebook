@@ -24,11 +24,24 @@ This jupyter notebook is meant to be run on Google Drive, and using Google Colab
 
 <br><br>
 
+
 ## **Image annotation to get PASCAL_VOC XML file**
  **Image annotation** is the process of labeling or classifying an image using text, annotation tools, or both, to show the data features you want your model to recognize on its own.
- 
+
+ <img src="assets/labelimg_sample.gif" alt="Sample usage of LabelImg" width="80%">
+
  You can check out the [Github repo for LabelImg](https://github.com/heartexlabs/labelImg), or read more about image labeling [here](https://viso.ai/computer-vision/labelimg-for-image-annotation/).
 
+
+
+
+<br><br>
+
+## **Object Detection vs Image Classification vs Image Segmentation**
+
+<img src="assets/classification_diff.jpg" alt="Difference between Computer Vision Problems" width="80%">
+
+Computer Vision is a field of computer science that focuses on enabling computers to identify and understand objects and people in images and videos. Object Detection, the focus of this notebook, is concerned with detecting instances of objects of a certain class in digital images. It involves both classification and localization of the multiple objects present in an image, as long as the model is trained to recognize those objects.
 
 <br><br>
 
