@@ -45,6 +45,18 @@ Computer Vision is a field of computer science that focuses on enabling computer
 
 <br><br>
 
+## **Base Model Used**
+
+Because training computer vision models take a lot of time and resources, **Transfer Learning** helps solve this problem by using existing models and "transferring" or recycling the learned patterns or knowledge developed from previous training to help perform a new task.
+
+
+For our project, our team used the **[ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8.config)** , trained on the [COCO 2017 dataset](https://cocodataset.org/#explore), as the base for our custom object detection model. 
+
+You can also try using different base models. A list of detection checkpoints for tensorflow 2.x can be found [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).
+
+
+<br><br>
+
 ## **ROADMAP TO CREATING AN OBJECT DETECTION TFLITE MODEL**
 * Collect the dataset of images and label them to get their xml files.
 
